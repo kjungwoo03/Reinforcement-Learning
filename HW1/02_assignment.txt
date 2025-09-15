@@ -1,0 +1,16 @@
+- V(s)
+ - State 1: 100.000
+ - State 2: 90.000
+ - State 3: 80.000
+ - State 4: 70.000
+ - State 5: 60.000
+ - State 6: 50.000
+
+- Q(s,a)
+ - State 1: QL=nan, QR=nan
+ - State 2: QL=100.000, QR=80.000
+ - State 3: QL=90.000, QR=70.000
+ - State 4: QL=80.000, QR=60.000
+ - State 5: QL=70.000, QR=50.000
+ - State 6: QL=nan, QR=nan
+[OK] Maximum absolute residual |A * V - b| = 1.421e-14

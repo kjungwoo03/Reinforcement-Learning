@@ -1,0 +1,30 @@
+-----
+Question 1
+- State Values V(s) with gamma=0.85
+  - Facebook: -6.513424
+  - Class 1 : -6.242995
+  - Class 2 : -3.470095
+  - Class 3 : -2.161904
+  - Pub     : -1.976189
+  - Pass    : 1.000000
+  - Sleep   : 0.000000
+
+-----
+Question 2
+- [Convergence] ||V_k - V_113||_\infty < 1e-10, iters = 114
+- Max |V_exact - V_iter| = 0.000000
+- Action-Value Q(s,a*)
+  - Facebook: -6.513424 (Error: 0.000000)
+  - Class 1 : -6.242995 (Error: 0.000000)
+  - Class 2 : -3.470095 (Error: 0.000000)
+  - Class 3 : -2.161904 (Error: 0.000000)
+  - Pub     : -1.976189 (Error: 0.000000)
+  - Pass    :  1.000000 (Error: 0.000000)
+  - Sleep   :  0.000000 (Error: 0.000000)
+
+-----
+Question 3
+- gamma = 0.85, R_max = 2.0
+  - tol = 1e-06, iters = 69, max_err = 4.12166281815729e-06, k_upper = 101
+  - tol = 1e-08, iters = 91, max_err = 4.237207740231952e-08, k_upper = 130
+  - tol = 1e-10, iters = 114, max_err = 3.53773010886016e-10, k_upper = 158
